@@ -20,8 +20,8 @@ c=[[1, 2], [3, 4], [5, 6, 7]]
 d=[]
 
 def rev(x):
+
     for i in x:
         d.append(list(reversed(i)))
-    return list(d.__reversed__())     
-    
+    return list(d.__reversed__())       
 print((rev(c)))
